@@ -12,3 +12,5 @@ To use this module:
     }
 
 Where domains is a list of domains that you would like to redirect to 1.2.3.4
+
+This module will only work as expected if you are the machine it is enabled on as the primary nameserver
