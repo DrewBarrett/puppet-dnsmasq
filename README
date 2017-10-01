@@ -1,16 +1,14 @@
 dnsmasq
 
-This is the dnsmasq module.
+This is the dnsmasq module. It installs, runs, and configures dnsmasq.
 
-License
--------
+Usage
+--------
 
+To use this module:
 
-Contact
--------
+    class {'dnsmasq':
+        domains => ['google.com', 'onyxpoint.com']
+    }
 
-
-Support
--------
-
-Please log tickets and issues at our [Projects site](http://projects.example.com)
+Where domains is a list of domains that you would like to redirect to 1.2.3.4
